@@ -134,7 +134,7 @@ where $\bar{\mathbf{z}}_b$ is the mean shared representation for batch $b$.
 ### Exploratory Data Analysis
 
 <p align="center">
-  <img src="GasSensorPINN/results/EDA_plots.png" width="85%" alt="Exploratory Data Analysis">
+  <img src="../results/EDA_plots.png" width="85%" alt="Exploratory Data Analysis">
 </p>
 
 **Key observations:** (a) Ammonia and Ethylene dominate the dataset. (b) Concentration distributions vary significantly per gas. (c) Sensor 1 ΔR exhibits clear drift across batches. (d) Sensor features show strong intra-sensor correlation.
