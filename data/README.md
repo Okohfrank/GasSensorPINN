@@ -142,7 +142,7 @@ where $\bar{\mathbf{z}}_b$ is the mean shared representation for batch $b$.
 ### Model Performance
 
 <p align="center">
-  <img src="results/PINN_results.png" width="85%" alt="PINN Model Results">
+  <img src="../results/PINN_results.png" width="85%" alt="PINN Model Results">
 </p>
 
 | Task | Metric | Value |
@@ -158,14 +158,14 @@ where $\bar{\mathbf{z}}_b$ is the mean shared representation for batch $b$.
 ### SHAP Explainability Analysis
 
 <p align="center">
-  <img src="results/SHAP_summary.png" width="85%" alt="SHAP Feature Importance">
+  <img src="../results/SHAP_summary.png" width="85%" alt="SHAP Feature Importance">
 </p>
 
 SHAP (SHapley Additive exPlanations) analysis reveals which sensor features drive the model's predictions. The summary plot above shows the top 20 most influential features, with color indicating feature value (red = high, blue = low).
 
 <p align="center">
-  <img src="results/SHAP_sensor_importance.png" width="48%" alt="Sensor Importance">
-  <img src="results/SHAP_feature_type_importance.png" width="48%" alt="Feature Type Importance">
+  <img src="../results/SHAP_sensor_importance.png" width="48%" alt="Sensor Importance">
+  <img src="../results/SHAP_feature_type_importance.png" width="48%" alt="Feature Type Importance">
 </p>
 
 **Left:** Aggregated importance by sensor, identifies which physical sensors contribute most to gas discrimination.  
@@ -174,7 +174,7 @@ SHAP (SHapley Additive exPlanations) analysis reveals which sensor features driv
 ### Drift Analysis
 
 <p align="center">
-  <img src="results/drift_analysis.png" width="70%" alt="Drift Analysis">
+  <img src="../results/drift_analysis.png" width="70%" alt="Drift Analysis">
 </p>
 
 Classification accuracy is evaluated per batch to assess robustness against sensor drift over the 36-month measurement period. The physics-informed constraints encourage the model to learn drift-invariant representations.
