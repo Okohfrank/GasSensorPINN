@@ -147,13 +147,12 @@ where $\bar{\mathbf{z}}_b$ is the mean shared representation for batch $b$.
 
 | Task | Metric | Value |
 |:---|:---|:---|
-| **Gas Classification** | Accuracy | **See notebook output** |
-| **Gas Classification** | Macro F1-Score | **See notebook output** |
-| **Concentration Prediction** | R² Score | **See notebook output** |
-| **Concentration Prediction** | MAE | **See notebook output** ppm |
-| **Concentration Prediction** | RMSE | **See notebook output** ppm |
+| **Gas Classification** | Accuracy | **0.9957** |
+| **Gas Classification** | Macro F1-Score | **1.00** |
+| **Concentration Prediction** | R² Score | **0.9702** |
+| **Concentration Prediction** | MAE | **13.46** ppm |
+| **Concentration Prediction** | RMSE | **31.06** ppm |
 
-> **Note:** Replace "See notebook output" with your actual results after running the notebook.
 
 ### SHAP Explainability Analysis
 
