@@ -1,0 +1,15 @@
+{
+  "classification_accuracy": 0.99568655643422,
+  "concentration_r2": 0.9702202677726746,
+  "concentration_mae_ppm": 13.463529586791992,
+  "concentration_rmse_ppm": 31.05535966253702,
+  "total_samples": 13910,
+  "n_features": 128,
+  "n_classes": 6,
+  "architecture": "Multi-task PINN (256\u2192128\u219264 shared, 32\u21926 classifier, 32\u21921 regressor)",
+  "physics_constraints": [
+    "Sensor response consistency (\u0394R vs |\u0394R|)",
+    "EMA monotonicity (\u03b1 ordering)",
+    "Temporal drift smoothness"
+  ]
+}
