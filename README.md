@@ -153,7 +153,6 @@ where $\bar{\mathbf{z}}_b$ is the mean shared representation for batch $b$.
 | **Concentration Prediction** | MAE | **13.46** ppm |
 | **Concentration Prediction** | RMSE | **31.06** ppm |
 
-> **Note:** Replace "See notebook output" with your actual results after running the notebook.
 
 ### SHAP Explainability Analysis
 
